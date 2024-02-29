@@ -12,13 +12,14 @@ uint countSecondPrototypeMid(uint y0, int bitSize);
 
 uint findCollision(int bitSize);
 
-/*int main() {
+int main() {
     string input;
     getline(std::cin, input);
     std::cout << MD4::encode(input);
     return 0;
-}*/
+}
 
+/*
 int main() {
     string pass1 = "Hello there!";
     string pass2 = "General Kenobi...";
@@ -130,4 +131,4 @@ string gen_random(const int &len) {
     }
 
     return tmp_s;
-}
+}*/
